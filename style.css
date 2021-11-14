@@ -1,9 +1,7 @@
 /*-----------------------------------------------------------------------------------
 	Kenobi
-	About: A shiny new Blocs website.
 	Author: Aayush Pokharel
 	Version: 1.0
-	Built with Blocs
 -----------------------------------------------------------------------------------*/
 body{
 	margin:0;
@@ -35,7 +33,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-style: normal;
 }
 
-/* = Blocs
+
+
+/*
 -------------------------------------------------------------- */
 
 .bloc{
@@ -63,7 +63,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:100px 20px;
 }
 
-/* = Full Screen Blocs 
+/* = Full Screen  
 -------------------------------------------------------------- */
 
 .bloc-fill-screen{
@@ -352,11 +352,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:558px;
 	border-radius:25px 25px 25px 25px;
 }
-.h1-style{
-	font-size:64px;
-	line-height:64px;
-	font-family:(null);
-}
+
 .btn-style{
 	background:linear-gradient(0deg, #FF455B 0%, #D8250C 100%);
 	font-weight:bold;
@@ -376,42 +372,41 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin:25px 25px 25px 0px;
 	border-radius:25px 25px 25px 25px;
 }
-.h3-style{
-	font-family:"Jost-Bold";
+
+
+
+
+.h1-style{
+	font-size: 72px;
+	background: linear-gradient(90deg, #993fff 0%, #5900ff 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 1000;
 }
-.p-style{
-	font-family:"Jost-Medium";
+.h2-style{
+	font-size: 48px;
+	background: linear-gradient(90deg, #ff5100 0%, #ff1100 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 1000;
 }
+
 .h3-3-style{
-	font-family:"Jost-Medium";
+	background: linear-gradient(90deg, #ff7300 0%, #ff3c00 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+
 }
-.h3-virtual-keys-style{
-	font-family:"Jost-Medium";
+
+.h4-style{
+	font-weight: 550;
+
 }
-.h3-watch-pad-style{
-	font-family:"Jost-Medium";
-}
-.h3-power-options-style{
-	font-family:"Jost-Medium";
-}
-.p-2-style{
-	font-family:"Jost-Regular";
-}
-.p-3-style{
-	font-family:"Jost-Regular";
-}
-.p-4-style{
-	font-family:"Jost-Regular";
-}
-.p-5-style{
-	font-family:"Jost-Regular";
-}
-.h3-gallery-style{
-	font-family:"Jost-Bold";
-}
-.p-6-style{
-	font-family:"Jost-Medium";
-}
+
+
 .img-click-style{
 	border-radius:35px 35px 35px 35px;
 }
@@ -440,7 +435,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .download-watch-app-btn{
 	background:linear-gradient(0deg, #53B8FE 0%, #0088E3 99%);
 	border-color:transparent!important;
-	border-style:_popUpItemAction:;
 	margin:25px 25px 25px 25px;
 	border-radius:25px 25px 25px 25px;
 	border-width:2px 2px 2px 2px;
@@ -585,10 +579,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.app-hero-sub-title{
 		font-size:25px;
 	}
-	.mt-md-0{
-	}
-	.mt-md-4{
-	}
 	
 }
 
@@ -605,8 +595,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 575px){
 	.app-hero-title{
 		font-size:20px;
-	}
-	.mt-1{
 	}
 	.footer-link{
 		text-align:center;
