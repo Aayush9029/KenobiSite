@@ -353,20 +353,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 .btn-style{
-	background:linear-gradient(0deg, #FF455B 0%, #D8250C 100%);
-	font-weight:bold;
+	border:none;
+
+	background: linear-gradient(90deg, #ff00bf 0%, #ff0000 100%);
+	box-shadow: 10px 10px 25px rgba(255, 120, 149, 0.918);	font-weight:bold;
 	margin:25px 25px 25px 0px;
 	border-radius:25px 25px 25px 25px;
 }
 .btn-2-style{
-	background:linear-gradient(0deg, #454444   0%, #0F0C0A 98%);
+	border:none;
+
+	background: linear-gradient(90deg, #58545f 0%, #002838 100%);
+	box-shadow: 10px 10px 25px rgba(55, 63, 100, 0.575);	
 	font-weight:bold;
 	margin:25px 25px 25px 0px;
 	border-radius:25px 25px 25px 25px;
 }
 .btn-1-style{
 	background-color:transparent;
-	background:linear-gradient(0deg, #51BFFF 0%, #0D90FF 99%);
+	border:none;
+	background: linear-gradient(90deg, #00b7ff 0%, #0051ff 100%);
+	box-shadow: 10px 10px 25px rgba(120, 145, 255, 0.918);
+
 	font-weight:bold;
 	margin:25px 25px 25px 0px;
 	border-radius:25px 25px 25px 25px;
@@ -436,15 +444,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:64px;
 	font-weight:bold;
 }
-.download-watch-app-btn{
-	background:linear-gradient(0deg, #53B8FE 0%, #0088E3 99%);
-	border-color:transparent!important;
-	margin:25px 25px 25px 25px;
-	border-radius:25px 25px 25px 25px;
-	border-width:2px 2px 2px 2px;
-}
+
 .btn-download-now-style{
+
 	font-weight:bold;
+	border: none;
 	background: linear-gradient(90deg, #00c3ff 0%, #0051ff 100%);
 	border-radius:25px;
 	box-shadow: 10px 10px 25px rgba(120, 145, 255, 0.918);
@@ -458,14 +462,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:16px 16px 16px 16px;
 
 }
+
 .btn-style:hover{
-	background:linear-gradient(0deg, #F13B43 0%, #F1424B 100%);
+	background:linear-gradient(0deg, #F13B43 0%, #ff626a 100%);
 }
 .btn-2-style:hover{
-	background:linear-gradient(0deg, #3C3B3B  0%, #4C454A 98%);
+	background:linear-gradient(0deg, #3C3B3B  0%, #6e656c 98%);
 }
 .btn-1-style:hover{
-	background:linear-gradient(0deg, #4FB1FE 0%, #50B6FF 100%);
+	background:linear-gradient(0deg, #4FB1FE 0%, #72c4ff 100%);
 }
 
 /* = Colour
