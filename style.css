@@ -6,7 +6,7 @@
 body{
 	margin:0;
 	padding:0;
-    background:#FFFFFF;
+    background:rgb(236, 244, 255);
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -120,7 +120,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .d-bloc .btn-wire,.d-bloc .btn-wire:hover{
 	color:rgba(255,255,255,1);
-	border-color:rgba(255,255,255,1);
+	/* border-color:rgba(255,255,255,1); */
 }
 .d-bloc .card{
 	color:rgba(0,0,0,.5);
@@ -142,7 +142,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
 	color:rgba(0,0,0,.7);
-	border-color:rgba(0,0,0,.3);
+	/* border-color:rgba(0,0,0,.3); */
 }
 
 
@@ -171,7 +171,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .d-bloc .card .btn-wire,.d-bloc .card .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
 	color:rgba(0,0,0,.7);
-	border-color:rgba(0,0,0,.3);
+	/* border-color:rgba(0,0,0,.3); */
 }
 
 
@@ -238,7 +238,6 @@ img.mg-lg{
 
 .btn-d,.btn-d:hover,.btn-d:focus{
 	color:#FFF;
-	background:rgba(0,0,0,.3);
 }
 
 /* Prevent ugly blue glow on chrome and safari */
@@ -386,7 +385,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2-style{
 	font-size: 48px;
-	background: linear-gradient(90deg, #ff5100 0%, #ff1100 100%);
+	background: linear-gradient(90deg, #00aeff 0%, #0026ff 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -394,7 +393,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 .h3-3-style{
-	background: linear-gradient(90deg, #ff7300 0%, #ff3c00 100%);
+	background: linear-gradient(90deg, #00c3ff 0%, #0051ff 100%);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: bold;
@@ -415,6 +414,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-10-style{
 	border-radius:35px 35px 35px 35px;
+
+}
+.img-frame-2-style, .img-frame-1-style{
+	box-shadow: 10px 10px 25px rgba(0,0,0,0.05);
+	
 }
 .img-frame-2-style{
 	width:558px;
@@ -441,14 +445,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-download-now-style{
 	font-weight:bold;
-	background:linear-gradient(0deg, #005ADC 0%, #567FFF 100%);
-	border-radius:25px 25px 25px 25px;
+	background: linear-gradient(90deg, #00c3ff 0%, #0051ff 100%);
+	border-radius:25px;
+	box-shadow: 10px 10px 25px rgba(120, 145, 255, 0.918);
 }
 .btn-download-now-style:hover{
-	background:linear-gradient(0deg, #3865D8 0%, #4072F3 100%);
+	background: linear-gradient(90deg, #0066ff 0%, #0011ff 100%);
+	box-shadow: 2px 2px 10px rgb(120, 145, 255);
+
 }
 .img-frame-5-style{
 	border-radius:16px 16px 16px 16px;
+
 }
 .btn-style:hover{
 	background:linear-gradient(0deg, #F13B43 0%, #F1424B 100%);
