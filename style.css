@@ -370,7 +370,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .h1-style{
 	font-size: 72px;
-	background: linear-gradient(90deg, #ff0000 0%, #ff0000 100%);
+	background: linear-gradient(90deg, #ff3116 0%, #ff0000 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -378,7 +378,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2-style{
 	font-size: 48px;
-	background: linear-gradient(45deg, #ff1e00 0%, #ff009d 100%);
+	background: linear-gradient(45deg, #ff1e00 0%, #ff0015 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -386,7 +386,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 .h3-3-style{
-	background: linear-gradient(90deg, #ff008c 0%, #ff0000 100%);
+	background: linear-gradient(90deg, #ff511c 0%, #e20000 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -395,7 +395,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 .h4-style{
-	color: rgba(255, 193, 201, 0.932);
+	color: rgba(255, 202, 193, 0.932);
 	font-weight: 550;
 
 }
@@ -433,7 +433,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-download-now-style{
 	font-weight:bold;
 	border: none;
-	background: linear-gradient(90deg, #ff2600 0%, #ff0062 100%);
+	background: linear-gradient(90deg, #ff2600 0%, #ff4800 100%);
 	border-radius:25px;
 	box-shadow: 10px 10px 25px rgba(97, 0, 24, 0.918);
 }
@@ -448,7 +448,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 .btn-style:hover{
-	background:linear-gradient(0deg, #F13B43 0%, #ff626a 100%);
+	background:linear-gradient(0deg, #F13B43 0%, #ff8e62 100%);
 }
 .btn-2-style:hover{
 	background:linear-gradient(0deg, #3C3B3B  0%, #6e656c 98%);
@@ -463,16 +463,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Background colour styles */
 
 .bgc-black{
-	background-color:#000000;
+	background:linear-gradient(180deg, rgb(0, 10, 24) 0%, rgb(0, 0, 0) 100%);
 }
 
 /* Text colour styles */
 
 .tc-charcoal{
-	color:#ff0000!important;
+	color:#ff1e00!important;
 }
 .tc-glaucous{
-	color:#ff5252!important;
+	color:#ff2929!important;
 }
 .tc-white{
 	color:#FFFFFF!important;
