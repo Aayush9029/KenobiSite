@@ -357,6 +357,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin:25px 25px 25px 0px;
 	border-radius:25px 25px 25px 25px;
 }
+.btn-3-style{
+	border:none;
+	background: linear-gradient(90deg, #008d13 0%, #1c4d00 100%);
+	font-weight:bold;
+	margin:25px 25px 25px 0px;
+	border-radius:25px 25px 25px 25px;
+}
 
 .btn-style{
 	border:none;
@@ -447,13 +454,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 .btn-style:hover{
-	background:linear-gradient(0deg, #F13B43 0%, #ff8e62 100%);
+	background:linear-gradient(0deg, #ff4e57 0%, #F13B43 100%);
 }
 .btn-2-style:hover{
 	background:linear-gradient(0deg, #3C3B3B  0%, #6e656c 98%);
 }
 .btn-1-style:hover{
 	background:linear-gradient(0deg, #4FB1FE 0%, #72c4ff 100%);
+}
+.btn-3-style:hover{
+	background: linear-gradient(90deg, #00bd19 0%, #307e03 100%);
 }
 
 /* = Colour
