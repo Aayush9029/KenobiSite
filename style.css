@@ -24,17 +24,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* = Web Fonts
 -------------------------------------------------------------- */
-
-@font-face {
-	font-family:'Jost-Medium';
-	src: url('./fonts/Jost-Medium/Jost-Medium.ttf');
-	src: url('./fonts/Jost-Medium/Jost-Medium.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-
-
 /*
 -------------------------------------------------------------- */
 
@@ -385,7 +374,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .h1-style{
 	font-size: 72px;
-	background: linear-gradient(90deg, #993fff 0%, #5900ff 100%);
+	background: linear-gradient(90deg, #00aeff 0%, #0026ff 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -394,15 +383,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h2-style{
 	font-size: 48px;
 	background: linear-gradient(90deg, #00aeff 0%, #0026ff 100%);
-	-webkit-background-clip: text;
 	background-clip: text;
+	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 1000;
 }
 
 .h3-3-style{
-	background: linear-gradient(90deg, #00c3ff 0%, #0051ff 100%);
+	background: linear-gradient(90deg, #00aeff 0%, #0026ff 100%);
 	background-clip: text;
+	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: bold;
 

@@ -1,1 +1,93 @@
-new version info
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenobi - Updates</title>
+</head>
+<body>
+<!-- Redirect to index.html in 5 seconds and update the countdown div -->
+<script>
+    setTimeout(function () {
+        window.location.href = "/";
+    }, 6000);
+    var countDownDate = new Date().getTime() + 6000;
+    var x = setInterval(function () {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("countdown").innerHTML = "Redirecting in " + seconds + "s ";
+        if (distance <= 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "You need to do it manually >.<";
+        }
+    }, 1000);
+
+</script>
+
+    <center>
+        
+    <!-- manual redirect button -->
+    <p>
+        Download the latest updates from the home page!</p>
+    <a href="index.html">
+        <button>
+            <h1>Back to Home</h1>
+        </button>
+    </a>
+    <!-- div redirect count down -->
+    <h1>
+        <div id="countdown">
+     </div>
+    </h1>
+
+
+    </center>   
+    <style>
+#countdown{
+            /* Gradient text color */
+            font: 400 15px/1.8 'Lato', sans-serif;
+            background: linear-gradient(to right, #00df56 0%, #00a17e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 50px;
+            background-clip: text;
+            font-weight: bolder;
+}
+
+        body {
+            background-color: #000000;
+        }
+        button {
+            background: linear-gradient(to right, #00a0df 0%, #0046a1 100%);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+
+        p {
+            /* Gradient text color */
+            font: 400 15px/1.8 'Lato', sans-serif;
+            background: linear-gradient(to right, #00a0df 0%, #0046a1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 50px;
+            background-clip: text;
+            font-weight: bolder;
+        }
+    </style>
+
+</body>
+</html>
