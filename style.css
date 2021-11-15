@@ -6,7 +6,7 @@
 body{
 	margin:0;
 	padding:0;
-    background:rgb(236, 244, 255);
+    background:rgb(0, 10, 24);
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -327,7 +327,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:30px;
 }
 .purple-gradient-bg-vert{
-	background:linear-gradient(90deg, #A5C4E9 0%, #C5DBFF 100%);
+	background:linear-gradient(90deg, rgb(0, 10, 24)0%, rgb(0, 0, 0)100%);
 }
 .navbar-brand img{
 	height:60px;
@@ -341,40 +341,36 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:25px 25px 25px 25px;
 }
 
-.btn-style{
-	border:none;
-
-	background: linear-gradient(90deg, #ff00bf 0%, #ff0000 100%);
-	box-shadow: 10px 10px 25px rgba(255, 120, 149, 0.918);	font-weight:bold;
-	margin:25px 25px 25px 0px;
-	border-radius:25px 25px 25px 25px;
-}
-.btn-2-style{
-	border:none;
-
-	background: linear-gradient(90deg, #58545f 0%, #002838 100%);
-	box-shadow: 10px 10px 25px rgba(55, 63, 100, 0.575);	
-	font-weight:bold;
-	margin:25px 25px 25px 0px;
-	border-radius:25px 25px 25px 25px;
-}
 .btn-1-style{
 	background-color:transparent;
 	border:none;
 	background: linear-gradient(90deg, #00b7ff 0%, #0051ff 100%);
-	box-shadow: 10px 10px 25px rgba(120, 145, 255, 0.918);
-
 	font-weight:bold;
 	margin:25px 25px 25px 0px;
 	border-radius:25px 25px 25px 25px;
 }
 
 
+.btn-2-style{
+	border:none;
+	background: linear-gradient(90deg, #2c2c2c 0%, #1b1b1b 100%);
+	font-weight:bold;
+	margin:25px 25px 25px 0px;
+	border-radius:25px 25px 25px 25px;
+}
+
+.btn-style{
+	border:none;
+	background: linear-gradient(90deg, #ff0080 0%, #ff0000 100%);
+	margin:25px 25px 25px 0px;
+	border-radius:25px 25px 25px 25px;
+	font-weight:bold;
+}
 
 
 .h1-style{
 	font-size: 72px;
-	background: linear-gradient(90deg, #00aeff 0%, #0026ff 100%);
+	background: linear-gradient(90deg, #ff0000 0%, #ff0000 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -382,7 +378,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2-style{
 	font-size: 48px;
-	background: linear-gradient(90deg, #00aeff 0%, #0026ff 100%);
+	background: linear-gradient(45deg, #ff1e00 0%, #ff009d 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -390,7 +386,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 .h3-3-style{
-	background: linear-gradient(90deg, #00aeff 0%, #0026ff 100%);
+	background: linear-gradient(90deg, #ff008c 0%, #ff0000 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -399,6 +395,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 .h4-style{
+	color: rgba(255, 193, 201, 0.932);
 	font-weight: 550;
 
 }
@@ -422,12 +419,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:558px;
 	border-radius:25px 25px 25px 25px;
 }
-.color-2{
-	background-color:#B0CCF0;
-}
+
 .purple-top-white-bottom{
 	background-color:transparent;
-	background:linear-gradient(360deg, #FFFFFF  0%, #BFD6F9 100%);
+	background:linear-gradient(360deg, rgb(0, 10, 24) 0%, #000000 100%);
 }
 .gradient-text{
 	color:#000000!important;
@@ -436,16 +431,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 .btn-download-now-style{
-
 	font-weight:bold;
 	border: none;
-	background: linear-gradient(90deg, #00c3ff 0%, #0051ff 100%);
+	background: linear-gradient(90deg, #ff2600 0%, #ff0062 100%);
 	border-radius:25px;
-	box-shadow: 10px 10px 25px rgba(120, 145, 255, 0.918);
+	box-shadow: 10px 10px 25px rgba(97, 0, 24, 0.918);
 }
 .btn-download-now-style:hover{
-	background: linear-gradient(90deg, #0066ff 0%, #0011ff 100%);
-	box-shadow: 2px 2px 10px rgb(120, 145, 255);
+	background: linear-gradient(90deg, #ff4c2c 0%, #a80000 100%);
+	box-shadow: 2px 2px 10px rgb(0, 0, 0);
 
 }
 .img-frame-5-style{
@@ -475,10 +469,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Text colour styles */
 
 .tc-charcoal{
-	color:#2F3760!important;
+	color:#ff0000!important;
 }
 .tc-glaucous{
-	color:#6B74A6!important;
+	color:#ff5252!important;
 }
 .tc-white{
 	color:#FFFFFF!important;
