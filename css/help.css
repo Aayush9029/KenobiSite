@@ -1,14 +1,12 @@
 /*-----------------------------------------------------------------------------------
 	Kenobi - Help
-	About: A shiny new Blocs website.
 	Author: Aayush Pokharel
 	Version: 1.0
-	Built with Blocs
 -----------------------------------------------------------------------------------*/
 body{
 	margin:0;
 	padding:0;
-    background:#FFFFFF;
+    background:rgb(0, 10, 24);
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -24,7 +22,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 .preloader-complete{animation-delay:0.1s;}
 @keyframes preloader-fade {0% {opacity: 1;visibility: visible;}100% {opacity: 0;visibility: hidden;}}
 
-/* = Blocs
+/* = 
 -------------------------------------------------------------- */
 
 .bloc{
@@ -56,7 +54,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* Dark theme */
 
 .d-bloc{
-	color:rgba(255,255,255,.7);
+	color:rgba(255, 255, 255, 0.7);
 }
 .d-bloc button:hover{
 	color:rgba(255,255,255,.9);
@@ -81,55 +79,55 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(255,255,255,1);
 }
 .d-bloc .card{
-	color:rgba(0,0,0,.5);
+	color:rgba(255, 255, 255, 0.5);
 }
 .d-bloc .card button:hover{
-	color:rgba(0,0,0,.7);
+	color:rgba(255, 255, 255, 0.7);
 }
 .d-bloc .card icon{
-	border-color:rgba(0,0,0,.7);
+	border-color:rgba(255, 255, 255, 0.7);
 }
 .d-bloc .card .divider-h span{
 	border-color:rgba(0,0,0,.1);
 }
 .d-bloc .card .a-btn{
-	color:rgba(0,0,0,.6);
+	color:rgba(255, 255, 255, 0.6);
 }
 .d-bloc .card .a-btn:hover{
-	color:rgba(0,0,0,1);
+	color:rgb(255, 255, 255);
 }
 .d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
-	color:rgba(0,0,0,.7);
-	border-color:rgba(0,0,0,.3);
+	color:rgba(255, 255, 255, 0.7);
+	border-color:rgba(255, 255, 255, 0.3);
 }
 
 
-/* Light theme */
+/* Dark theme */
 
 .d-bloc .card,.l-bloc{
-	color:rgba(0,0,0,.5);
+	color:rgba(255, 255, 255, 0.5);
 }
 .d-bloc .card button:hover,.l-bloc button:hover{
-	color:rgba(0,0,0,.7);
+	color:rgba(255, 255, 255, 0.7);
 }
 .l-bloc .icon-round,.l-bloc .icon-square,.l-bloc .icon-rounded,.l-bloc .icon-semi-rounded-a,.l-bloc .icon-semi-rounded-b{
-	border-color:rgba(0,0,0,.7);
+	border-color:rgba(255, 255, 255, 0.7);
 }
 .d-bloc .card .divider-h span,.l-bloc .divider-h span{
 	border-color:rgba(0,0,0,.1);
 }
 .d-bloc .card .a-btn,.l-bloc .a-btn,.l-bloc .navbar a,.l-bloc a .icon-sm, .l-bloc a .icon-md, .l-bloc a .icon-lg, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a{
-	color:rgba(0,0,0,.6);
+	color:rgba(255, 255, 255, 0.6);
 }
 .d-bloc .card .a-btn:hover,.l-bloc .a-btn:hover,.l-bloc .navbar a:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover{
-	color:rgba(0,0,0,1);
+	color:rgb(255, 255, 255);
 }
 .l-bloc .navbar-toggle .icon-bar{
-	color:rgba(0,0,0,.6);
+	color:rgba(255, 255, 255, 0.6);
 }
 .d-bloc .card .btn-wire,.d-bloc .card .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
-	color:rgba(0,0,0,.7);
-	border-color:rgba(0,0,0,.3);
+	color:rgba(255, 255, 255, 0.7);
+	border-color:rgba(255, 255, 255, 0.3);
 }
 
 /* Row Margin Offsets */
@@ -138,6 +136,22 @@ a:hover{text-decoration: none; cursor:pointer;}
 	margin-top:30px;
 }
 
+
+/* BGcolor for text feild inputbox */
+input, textarea{
+	background-color:rgba(255,255,255,.1) !important;
+	color: wheat !important;
+}
+
+button, input[type="submit"], input[type="reset"], input[type="button"]{
+	background-color:rgba(17, 0, 37, 0.959) !important;
+	color: purple !important;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover{
+	background-color:rgba(26, 0, 56, 0.959) !important;
+	color: rgb(255, 255, 255) !important;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */

@@ -361,7 +361,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .btn-style{
 	border:none;
-	background: linear-gradient(90deg, #ff0080 0%, #ff0000 100%);
+	background: linear-gradient(90deg, #ff0000 0%, #ff0000 100%);
 	margin:25px 25px 25px 0px;
 	border-radius:25px 25px 25px 25px;
 	font-weight:bold;
@@ -469,10 +469,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Text colour styles */
 
 .tc-charcoal{
-	color:#ff1e00!important;
+	color:#ff1100!important;
 }
 .tc-glaucous{
-	color:#ff2929!important;
+	color:#ff2111e1!important;
 }
 .tc-white{
 	color:#FFFFFF!important;
