@@ -453,6 +453,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 }
 
+h5{
+	color: gray;
+}
+
 .btn-style:hover{
 	background:linear-gradient(0deg, #ff4e57 0%, #F13B43 100%);
 }
