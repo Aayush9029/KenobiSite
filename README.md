@@ -1,4 +1,6 @@
-# KenobiSite
+# KenobiSite 
+[![CodeQL](https://github.com/Aayush9029/KenobiSite/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/Aayush9029/KenobiSite/actions/workflows/codeql-analysis.yml)
+
 Website, issue tracker and version.json for Kenobi App
 
 [Kenobi Website](https://aayush9029.github.io/KenobiSite/)
