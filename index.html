@@ -41,15 +41,6 @@
 <link rel="stylesheet" type="text/css" href="./css/all.min.css">
 
 <title>Kenobi - Apple watch app</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TQLKXMLYZ0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-TQLKXMLYZ0');
-</script>
 </head>
 <body>
 
@@ -258,43 +249,35 @@
 <!-- Main container END -->
     
 <script>
+	// Custom anonymous analytics (Google Analytics = bad for privacy) 
+	// this sends message on discord server (not the best way but it works)
+
 	// add event listner for all a tags and on click execute notifyRobot function
 	document.querySelectorAll('a').forEach(function(a) {
 		a.addEventListener('click', function(e) {
-			notifyRobot(this.href, event="Some one clicked the link");
+			notifyRobot(event="🔗 Some one clicked the link: " + this.href);
 		});
 	});
 
-		function getIP(json){
-			notifyRobot(json.ip)
-		}
 
-function notifyRobot(ip, event= "Someone visited Kenobi site") {
-  var params = {
-    username: ip,
+function notifyRobot(event= "Someone visited Kenobi site 👀") {
+  let params = {
+    username: "Kiwi",
     avatar_url: "",
     content: event
   }
-  if (ip == "" || ip == undefined) {
-    params = {
-      username: "Kiwi",
-      avatar_url: "",
-      content: event
-    }
-  }
+
   const request = new XMLHttpRequest();
   request.open("POST", "https://discord.com/api/webhooks/910585369936953405/faTq1SWKL2LfTX5LIvnTIm47yWU0wufvK3-Td9u1iMdLC7uCGUZm73YVjka0utijQ-Np");
   sentStuff = true;
   request.setRequestHeader('Content-type', 'application/json');
 
-
   request.send(JSON.stringify(params));
 }
 
-
 window.onload = function() {
   window.scrollTo(0, 0);
-  notifyRobot("")
+  notifyRobot();
 }
 </script>
 
