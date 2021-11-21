@@ -349,7 +349,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:25px 25px 25px 25px;
 }
 
-
+.btn-style{
+	border:none;
+	background: linear-gradient(90deg, #ff0000 0%, #ff0000 100%);
+	margin:25px 25px 25px 0px;
+	border-radius:25px 25px 25px 25px;
+	font-weight:bold;
+}
 .btn-2-style{
 	border:none;
 	background: linear-gradient(90deg, #2c2c2c 0%, #1b1b1b 100%);
@@ -364,14 +370,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin:25px 25px 25px 0px;
 	border-radius:25px 25px 25px 25px;
 }
-
-.btn-style{
+.btn-4-style{
 	border:none;
-	background: linear-gradient(90deg, #ff0000 0%, #ff0000 100%);
+	background: linear-gradient(90deg, #211233 0%, #2b0446 100%);
+	font-weight:bold;
 	margin:25px 25px 25px 0px;
 	border-radius:25px 25px 25px 25px;
-	font-weight:bold;
 }
+
 
 
 .h1-style{
@@ -469,7 +475,9 @@ h5{
 .btn-3-style:hover{
 	background: linear-gradient(90deg, #00bd19 0%, #307e03 100%);
 }
-
+.btn-4-style:hover{
+	background: linear-gradient(90deg, #411675 0%, #6800ad 100%);
+}
 /* = Colour
 -------------------------------------------------------------- */
 
