@@ -664,3 +664,14 @@ h5{
 	
 }
 
+
+
+/* for small screen make the .notification-container full width */
+@media (max-width: 700px){
+	.notification-container{
+		width:100%;
+		margin: 20px auto;
+		top: auto;
+		bottom: 0 !important;
+	}
+}
